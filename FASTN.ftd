@@ -3,5 +3,11 @@
 -- fastn.package: heulitig.github.io/module-test
 
 -- fastn.dependency: fastn-community.github.io/doc-site as ds
+-- fastn.dependency: fastn-community.github.io/set-1-ds as set-1
+-- fastn.dependency: fastn-community.github.io/set-2-ds as set-2
+-- fastn.dependency: fastn-community.github.io/set-3-ds as set-3
 
 -- fastn.auto-import: ds
+-- fastn.auto-import: set-1
+-- fastn.auto-import: set-2
+-- fastn.auto-import: set-3
