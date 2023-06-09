@@ -1,10 +1,12 @@
 -- import: heulitig.github.io/module-test/common
 
 -- mod-page: Set-1 ds
+ds: set-1
 
 -- ftd.ui list right-sidebar-ui:
 
 -- mod-right-sidebar:
+ds: set-1
 
 -- end: right-sidebar-ui
 
@@ -12,12 +14,13 @@
 -- ftd.ui list footer-ui:
 
 -- mod-footer:
+ds: set-1
 
 -- end: footer-ui
 
 
 -- component mod-page:
-module ds: set-1
+module ds: set-3
 caption title:
 string document-title: fastn set-1-ds Template. Build Your Own Website with Ease
 string document-description: Simple, easy-to-use set-1-ds template to build your own documentation website, personal website, or blog. Change colours and typography effortlessly.
@@ -82,7 +85,7 @@ Our all documentation sites uses this theme.
 
 
 -- component mod-footer:
-module f: set-1
+module f: set-3
 
 -- ftd.column:
 width: fill-container
@@ -104,7 +107,7 @@ footer-links: $common.footer-links
 
 
 -- component mod-right-sidebar:
-module s: set-1
+module s: set-3
 
 -- ftd.column:
 width: fill-container
