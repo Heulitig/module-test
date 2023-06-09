@@ -1,12 +1,10 @@
 -- import: heulitig.github.io/module-test/common
 
 -- mod-page: Set-1 ds
-ds: set-1
 
 -- ftd.ui list right-sidebar-ui:
 
 -- mod-right-sidebar:
-s: set-1
 
 -- end: right-sidebar-ui
 
@@ -14,7 +12,6 @@ s: set-1
 -- ftd.ui list footer-ui:
 
 -- mod-footer:
-f: set-1
 
 -- end: footer-ui
 
@@ -87,6 +84,9 @@ Our all documentation sites uses this theme.
 -- component mod-footer:
 module f: set-1
 
+-- ftd.column:
+width: fill-container
+
 -- mod-footer.f.footer:
 site-logo: $common.site-logo
 site-url: $common.site-url
@@ -94,9 +94,7 @@ logo-width: $common.logo-width
 logo-height: $common.logo-height
 footer-links: $common.footer-links
 
--- ds.h1: Hello some lost child 1
-
--- end: mod-footer.f.footer
+-- end: ftd.column
 
 -- end: mod-footer
 
