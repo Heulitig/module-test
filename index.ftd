@@ -6,7 +6,7 @@ ds: set-1
 -- ftd.ui list right-sidebar-ui:
 
 -- mod-right-sidebar:
-ds: set-1
+s: set-1
 
 -- end: right-sidebar-ui
 
@@ -14,7 +14,7 @@ ds: set-1
 -- ftd.ui list footer-ui:
 
 -- mod-footer:
-ds: set-1
+f: set-1
 
 -- end: footer-ui
 
