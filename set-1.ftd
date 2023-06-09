@@ -1,19 +1,4 @@
 -- import: heulitig.github.io/module-test
 
--- module-test.m-page: Set 1 page title
-
-This is set-1 page body
-
--- ds.h1: This is heading
-
-This is some body under heading
-
--- ds.h2: This is another heading but smaller
-
-This is some body for another heading
-
--- ds.h3: This is yet another heading but even more smaller
-
-This is some body for yet another heading
-
--- end: module-test.m-page
+-- module-test.mod-page: Set 1 page title
+ds: set-1

@@ -1,16 +1,134 @@
--- component m-page:
+-- import: heulitig.github.io/module-test/common
+
+-- mod-page: Set-1 ds
+ds: set-1
+
+-- ftd.ui list right-sidebar-ui:
+
+-- mod-right-sidebar:
+s: set-1
+
+-- end: right-sidebar-ui
+
+
+-- ftd.ui list footer-ui:
+
+-- mod-footer:
+f: set-1
+
+-- end: footer-ui
+
+
+-- component mod-page:
+module ds: set-1
 caption title:
-body body:
-children contents:
-module m: set-1
+string document-title: fastn set-1-ds Template. Build Your Own Website with Ease
+string document-description: Simple, easy-to-use set-1-ds template to build your own documentation website, personal website, or blog. Change colours and typography effortlessly.
+string document-image: https://fastn-community.github.io/set-1-ds/-/fastn-community.github.io/set-1-ds/static/set-1-ds-og-image.jpg
+string github-url: https://github.com/fastn-community/set-1-ds/
 
 -- ftd.column:
 width: fill-container
 
--- m-page.m.page: $m-page.title
-body: $m-page.body
-wrapper: $m-page.contents
+-- mod-page.ds.page: $mod-page.title
+document-title: $mod-page.document-title
+document-description: $mod-page.document-description
+document-image: $mod-page.document-image
+site-name: NULL
+github-url: $mod-page.github-url
+github-icon: true
+sidebar: true
+footer: $footer-ui
+right-sidebar: $right-sidebar-ui
+
+-- mod-page.ds.page.body:
+
+This package will help you create a beautiful documentation site in no time.
+
+It provides out-of-the-box documentation features that can be used to create any
+kind of site(personal website, blog, etc).
+
+-- mod-page.ds.h3: 🚀 Fast Track
+id: fast-track
+
+Create your first fastn [web-site](https://fastn.com/expander/hello-world/-/build/)
+project in just 5 minutes!
+
+[Click here](https://github.com/fastn-stack/fastn-template/) to use this
+package for your fastn project.
+
+-- mod-page.ds.h3: 🌟 Whats next?
+id: whats-next
+
+Create your first page.
+[Click here to know more](https://fastn-community.github.io/set-1-ds/page/).
+
+-- mod-page.ds.h3: 👀 Want to learn more?
+id: want-to-learn-more
+
+Feel free to check [our expander course](https://fastn.com/expander/) or jump
+into our [FifthTry Discord server](https://discord.gg/bucrdvptYd).
+
+-- mod-page.ds.h3: 🎯 Used by?
+id: used-by
+
+Our all documentation sites uses this theme.
+
+- [fastn.com](https://fastn.com/home/)
+- [FifthTry.com](https://www.fifthtry.com/)
+
+-- end: mod-page.ds.page
 
 -- end: ftd.column
 
--- end: m-page
+-- end: mod-page
+
+
+-- component mod-footer:
+module f: set-1
+
+-- mod-footer.f.footer:
+site-logo: $common.site-logo
+site-url: $common.site-url
+logo-width: $common.logo-width
+logo-height: $common.logo-height
+footer-links: $common.footer-links
+
+-- ds.h1: Hello some lost child 1
+
+-- end: mod-footer.f.footer
+
+-- end: mod-footer
+
+
+
+
+
+
+-- component mod-right-sidebar:
+module s: set-1
+
+-- ftd.column:
+width: fill-container
+
+-- mod-right-sidebar.s.toc-title: On this page
+
+-- mod-right-sidebar.s.link-group: Fast Track
+cta: #fast-track
+
+-- mod-right-sidebar.s.link-group: Whats next?
+cta: #whats-next
+
+-- mod-right-sidebar.s.link-group: Want to learn more?
+cta: #want-to-learn-more
+
+-- mod-right-sidebar.s.link-group: Used by?
+cta: #used-by
+
+-- end: ftd.column
+
+-- end: mod-right-sidebar
+
+
+
+
