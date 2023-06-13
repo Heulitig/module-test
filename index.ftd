@@ -27,9 +27,6 @@ string document-description: Simple, easy-to-use set-1-ds template to build your
 string document-image: https://fastn-community.github.io/set-1-ds/-/fastn-community.github.io/set-1-ds/static/set-1-ds-og-image.jpg
 string github-url: https://github.com/fastn-community/set-1-ds/
 
--- ftd.column:
-width: fill-container
-
 -- mod-page.ds.page: $mod-page.title
 document-title: $mod-page.document-title
 document-description: $mod-page.document-description
@@ -79,16 +76,11 @@ Our all documentation sites uses this theme.
 
 -- end: mod-page.ds.page
 
--- end: ftd.column
-
 -- end: mod-page
 
 
 -- component mod-footer:
 module f: set-3
-
--- ftd.column:
-width: fill-container
 
 -- mod-footer.f.footer:
 site-logo: $common.site-logo
@@ -96,8 +88,6 @@ site-url: $common.site-url
 logo-width: $common.logo-width
 logo-height: $common.logo-height
 footer-links: $common.footer-links
-
--- end: ftd.column
 
 -- end: mod-footer
 
